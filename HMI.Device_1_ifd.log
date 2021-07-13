@@ -1,0 +1,9 @@
+﻿ES2RT linker log file created on Tuesday, July 13, 2021 6:29:49 PM
+
+Linking...
+User Info - Resource Id [ NrOfTags ], caused in [ LinkerVar ]
+User Info - Resource Id [ NumberPowerTags ], caused in [ LinkerLicense ]
+0 errors, 0 warnings - succeeded.
+
+Writing "C:\Projects\S7300Ethernet\HMI.Device_1"...
+Done.

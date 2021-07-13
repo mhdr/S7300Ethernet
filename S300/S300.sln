@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ethernet1", "Ethernet1\Ethernet1.csproj", "{D085B4E3-0B95-4A04-BE72-8D861D40EDD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D085B4E3-0B95-4A04-BE72-8D861D40EDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D085B4E3-0B95-4A04-BE72-8D861D40EDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D085B4E3-0B95-4A04-BE72-8D861D40EDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D085B4E3-0B95-4A04-BE72-8D861D40EDD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

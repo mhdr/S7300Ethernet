@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dDmIVUqOpNZ7qGeEMvLl1/CfcmOfv6LHzVcE8AX3jWIsb/vhooPzwZBBSNvvSHQckh5ZXnJQiI5AKp/kKaK1xA==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\S7300Ethernet\\S300\\Ethernet1\\Ethernet1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahmood\\.nuget\\packages\\sharp7\\1.1.79\\sharp7.1.1.79.nupkg.sha512"
+  ],
+  "logs": []
+}
