@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Ethernet2/1.0.0": {
+        "dependencies": {
+          "S7netplus": "0.13.0"
+        },
+        "runtime": {
+          "Ethernet2.dll": {}
+        }
+      },
+      "S7netplus/0.13.0": {
+        "runtime": {
+          "lib/netstandard2.0/S7.Net.dll": {
+            "assemblyVersion": "0.13.0.0",
+            "fileVersion": "0.13.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ethernet2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "S7netplus/0.13.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-88M2dzZsqFdGLendO098rkFBN0NLBv4o2E+zTFJoAGgvQdaIocf8k5bx0TqPCM81b5oNjgtp7XT7dS9uUfX6/g==",
+      "path": "s7netplus/0.13.0",
+      "hashPath": "s7netplus.0.13.0.nupkg.sha512"
+    }
+  }
+}

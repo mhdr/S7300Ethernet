@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bEArxxUulbICYlZJNDOpdlM9W1iuwWL7WAlf6jUYGd1N13xdsWnga3x0aIAGmGTGIDjxWZ2qbr4qXIY/o9ZPlw==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\S7300Ethernet\\S300\\Ethernet2\\Ethernet2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mahmood\\.nuget\\packages\\s7netplus\\0.13.0\\s7netplus.0.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}
