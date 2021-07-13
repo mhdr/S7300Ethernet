@@ -15,8 +15,10 @@ namespace Ethernet2
                 Console.WriteLine("Connected");
             }
             
-            double result = (double)plc.Read("DB1.DBD2");
+            object result = plc.Read("DB1.DBW6");
+            object result2 = plc.Read("DB1.DBD2");
             Console.WriteLine(result);
+            Console.WriteLine(result2);
         }
     }
 }

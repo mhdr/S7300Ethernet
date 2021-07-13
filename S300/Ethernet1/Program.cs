@@ -14,6 +14,13 @@ namespace Ethernet1
             {
                 Console.WriteLine(client.ErrorText(result));
             }
+            else
+            {
+                byte[] dbBuffer = new byte[8];
+                result = client.DBRead(1, 0, 8, dbBuffer);
+                var var2 = S7.GetRealAt(dbBuffer, 2);
+                Console.WriteLine(var2);
+            }
         }
     }
 }
