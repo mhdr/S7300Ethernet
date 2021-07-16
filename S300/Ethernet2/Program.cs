@@ -7,7 +7,7 @@ namespace Ethernet2
     {
         static void Main(string[] args)
         {
-            Plc plc = new Plc(CpuType.S7300, "127.0.0.1", 0, 2);
+            Plc plc = new Plc(CpuType.S7300, "192.168.0.3", 0, 2);
             plc.Open();
 
             if (plc.IsConnected)

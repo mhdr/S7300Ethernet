@@ -8,7 +8,7 @@ namespace Ethernet1
         static void Main(string[] args)
         {
             S7Client client = new S7Client();
-            int result = client.ConnectTo("127.0.0.1", 0, 2);
+            int result = client.ConnectTo("192.168.0.3", 0, 2);
 
             if (result != 0)
             {
@@ -16,10 +16,14 @@ namespace Ethernet1
             }
             else
             {
-                byte[] dbBuffer = new byte[8];
-                result = client.DBRead(1, 0, 8, dbBuffer);
+                byte[] dbBuffer = new byte[12];
+                result = client.DBRead(1, 0, 12, dbBuffer);
+                var var1 = S7.GetIntAt(dbBuffer, 0);
                 var var2 = S7.GetRealAt(dbBuffer, 2);
+                var var4 = S7.GetDWordAt(dbBuffer, 8);
+                Console.WriteLine(var1);
                 Console.WriteLine(var2);
+                Console.WriteLine(var4);
             }
         }
     }
